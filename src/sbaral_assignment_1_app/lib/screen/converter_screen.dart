@@ -45,7 +45,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text(
+             Text(
               'Value',
               style: TextStyle(fontSize: 18.0),
             ),
@@ -57,8 +57,8 @@ class _ConverterScreenState extends State<ConverterScreen> {
                 errorText: _errorText,
               ),
             ),
-            SizedBox(height: 16.0),
-            Text('From', style: TextStyle(fontSize: 18.0)),
+            const SizedBox(height: 16.0),
+             Text('From', style: TextStyle(fontSize: 18.0)),
             DropdownButton<String>(
               value: _fromUnit,
               items: units.map((String value) {
@@ -73,8 +73,8 @@ class _ConverterScreenState extends State<ConverterScreen> {
                 });
               },
             ),
-            SizedBox(height: 16.0),
-            Text('To', style: TextStyle(fontSize: 18.0)),
+            const SizedBox(height: 16.0),
+             Text('To', style: TextStyle(fontSize: 18.0)),
             DropdownButton<String>(
               value: _toUnit,
               items: units.map((String value) {
@@ -89,17 +89,17 @@ class _ConverterScreenState extends State<ConverterScreen> {
                 });
               },
             ),
-            SizedBox(height: 16.0),
+            const SizedBox(height: 16.0),
             Center(
               child: ElevatedButton(
                 onPressed: _convert,
                 style: ElevatedButton.styleFrom(
-                  padding: EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                  padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                 ),
-                child: Text('Convert'),
+                child:  Text('Convert'),
               ),
             ),
-            SizedBox(height: 16.0),
+            const SizedBox(height: 16.0),
             if (_conversionResult != null)
               ConversionResult(
                 value: _valueController.text,

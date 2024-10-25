@@ -6,7 +6,7 @@ class ConversionResult extends StatelessWidget {
   final String toUnit;
   final String result;
 
-  ConversionResult({
+  const ConversionResult({super.key, 
     required this.value,
     required this.fromUnit,
     required this.toUnit,
@@ -17,7 +17,7 @@ class ConversionResult extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       '$value $fromUnit are $result $toUnit',
-      style: TextStyle(
+      style: const TextStyle(
         fontSize: 18.0,
         fontWeight: FontWeight.w600,
         color: Colors.blueAccent,
