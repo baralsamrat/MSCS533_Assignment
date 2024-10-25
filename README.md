@@ -4,7 +4,16 @@ Using Dart language and Flutter Framework, create a Flutter conversion app that 
 ## Output:
 The following is the final layout of the Application: 
 
-![](./Picture1.png)
+### iOS
+![](./Output_ios.png)
+
+### Android
+![](./Output_android.PNG)
+
+
+### Web
+![](./Output_web.PNG)
+
 
 ## Deliverables:
 
