@@ -2,7 +2,7 @@
 Using Dart language and Flutter Framework, create a Flutter conversion app that allows users to select a measure – metric or imperial – and convert it to another measure. For example, they'll be able to convert a distance in miles to a distance in kilometers, or a weight in kilograms to a weight in pounds.  
 
 ## Output:
-The following is the final layout of the Application: 
+The following is the final 5 layout Output of the Application: 
 
 ### iOS
 ![](./Output_ios.png)
@@ -10,9 +10,14 @@ The following is the final layout of the Application:
 ### Android
 ![](./Output_android.PNG)
 
-
 ### Web
 ![](./Output_web.PNG)
+
+### Windows
+![](./Ouput_Windows.png)
+
+### MacOS
+![](./Ouput_macOS.png)
 
 
 ## Deliverables:

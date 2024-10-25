@@ -57,7 +57,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                 errorText: _errorText,
               ),
             ),
-            const SizedBox(height: 16.0),
+            SizedBox(height: 16.0),
              Text('From', style: TextStyle(fontSize: 18.0)),
             DropdownButton<String>(
               value: _fromUnit,
@@ -73,7 +73,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                 });
               },
             ),
-            const SizedBox(height: 16.0),
+             SizedBox(height: 16.0),
              Text('To', style: TextStyle(fontSize: 18.0)),
             DropdownButton<String>(
               value: _toUnit,
@@ -89,17 +89,17 @@ class _ConverterScreenState extends State<ConverterScreen> {
                 });
               },
             ),
-            const SizedBox(height: 16.0),
+             SizedBox(height: 16.0),
             Center(
               child: ElevatedButton(
                 onPressed: _convert,
                 style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                  padding:  EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                 ),
                 child:  Text('Convert'),
               ),
             ),
-            const SizedBox(height: 16.0),
+             SizedBox(height: 16.0),
             if (_conversionResult != null)
               ConversionResult(
                 value: _valueController.text,
